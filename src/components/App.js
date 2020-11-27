@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import Mesa from './Mesa';
 import Butto from './Butt';
 import Nameta from './Nametag';
+import juego from './juego'
 
 
 const AppWrapper = styled.div`
@@ -29,7 +30,8 @@ function App() {
 
         <Mesa mesa={finch} />
         <Butto cont={finchi} />
-        <div className="cuadro-div">
+        <juego/>
+        {/* <div className="cuadro-div">
           <div className="cuadrom-div">
             <div className="cuadrot-div">
               <div className="circulo">
@@ -60,7 +62,7 @@ function App() {
           </div>
         </div>
         <div className="playg">
-         
+         <juego/>
         </div>
         <div className="cuadro-div">
           <div className="cuadromm-div">
@@ -91,11 +93,13 @@ function App() {
 
             </div>
           </div>
-        </div>
+        
+        
+        
         <div className="under">
-
-        </div>
-
+        
+        </div>*/}
+      
 
       </div>
     </AppWrapper>

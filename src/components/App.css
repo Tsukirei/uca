@@ -87,6 +87,7 @@
 
 }
 .playg{
+  z-index: 30;
   height:78vh;
   width: 40vw;
   }
